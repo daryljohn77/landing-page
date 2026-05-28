@@ -1,0 +1,190 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.header .logo {
+    margin-top: 16px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 64px;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 64px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.img {
+    background-color: gray;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-shrink: 0;
+}
+
+.section-1 .container {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.section-1 .container .title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.section-1 .container .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 .container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section-2 {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 64px;
+}
+
+.section-2 .title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 16px;
+}
+
+.section-2 .tiles {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    max-width: 500px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.words {
+    font-size: 16px;
+    text-align: center;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 128px;
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section-3 .from {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section-4 {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+}
+
+.section-4 .container {
+    background-color: #3882f6;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+}
+
+.section-4 .container .text .title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.section-4 .container .text .extra {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-4 .container button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    border-style: solid;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.footer {
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
